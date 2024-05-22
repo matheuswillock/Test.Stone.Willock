@@ -1,6 +1,6 @@
 language: csharp
 mono: none
-dotnet: 6.0
+dotnet: 8.0
 script:
  - dotnet restore
  - dotnet build
