@@ -1,7 +1,0 @@
-language: csharp
-mono: none
-dotnet: 8.x
-script:
- - dotnet restore
- - dotnet build
- - dotnet test Test.Stone.Willock.Tests/Test.Stone.Willock.Tests.csproj

@@ -1,6 +1,0 @@
-@Test.Stone.Willock.WebApi_HostAddress = http://localhost:5279
-
-GET {{Test.Stone.Willock.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
