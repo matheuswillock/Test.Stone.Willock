@@ -54,26 +54,10 @@ dotnet ef database update
 dotnet run
 ```
 
-## Estrutura do Projeto
+## Conclusão
 
-O projeto está estruturado da seguinte forma:
+Este projeto foi desenvolvido como parte do desafio técnico da Stone. Ele demonstra o uso de várias tecnologias, incluindo C#, .NET, Entity Framework Core, FluentValidation, Docker Compose e Swagger, para criar uma aplicação robusta e bem estruturada.
 
-- **Application**: Contém as use cases e suas DTOs de input e output. Também inclui a biblioteca com a classe Output, usada na comunicação entre as classes que trafegam informações.
-- **Domain**: Contém as entidades do projeto e enums.
-- **Infrastructure**: Contém a persistência no banco de dados Postgres.
-- **WebApi**: Contém as controllers e validators.
+Espero que as informações fornecidas neste README sejam úteis para entender a estrutura e as tecnologias utilizadas no projeto. Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato comigo.
 
-## Tecnologias Utilizadas
-
-* **C#**: Linguagem de programação principal.
-* **.NET**: Framework utilizado para o desenvolvimento do aplicativo.
-* **Entity Framework Core**: ORM utilizado para acessar o banco de dados.
-* **FluentValidation**: Biblioteca utilizada para validação de dados.
-* **Docker Compose**: Utilizado para configurar o banco de dados Postgres.
-* **Swagger**: Utilizado para documentar a API.
-
-# Contato
-
-Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato comigo.
-
-Obrigado!
+Obrigado por dedicar seu tempo para revisar este projeto!
