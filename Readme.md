@@ -54,6 +54,20 @@ dotnet ef database update
 dotnet run
 ```
 
+#### Integração Contínua (CI)
+
+Este projeto utiliza a funcionalidade de CI do GitHub Actions para construir o projeto, restaurar dependências e executar testes automaticamente a cada push ou pull request na branch master.
+
+A configuração do CI está definida no arquivo `.github/workflows/dotnet.yml`. Aqui estão as principais etapas do processo de CI:
+
+1. **Setup .NET**: Configura a versão do .NET utilizada no runner do GitHub Actions.
+2. **Restore dependencies**: Restaura as dependências do projeto usando `dotnet restore`.
+3. **Build**: Constrói o projeto usando `dotnet build`.
+4. **Test**: Executa os testes do projeto usando `dotnet test`.
+5. **Upload test results**: Carrega os resultados dos testes como um artefato do GitHub Actions.
+
+Para mais informações sobre a configuração do CI, consulte o arquivo [dotnet.yml](.github/workflows/dotnet.yml).
+
 ## Conclusão
 
 Este projeto foi desenvolvido como parte do desafio técnico da Stone. Ele demonstra o uso de várias tecnologias, incluindo **C#, .NET, Entity Framework Core, FluentValidation, Docker Compose e Swagger**, para criar uma aplicação robusta e bem estruturada.
