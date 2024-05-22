@@ -1,0 +1,22 @@
+﻿version: '3.7'
+
+services:
+  db-stone-postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: my_pw
+      POSTGRES_USER: my_user
+      POSTGRES_DB: stone_db_postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+
+networks:
+  backend:
