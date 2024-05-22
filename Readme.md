@@ -1,22 +1,22 @@
-# Desafio Técnico - Stone
-Olá! <img width=30px height=30px src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif"/>
+# Desafio TÃ©cnico - Stone
+OlÃ¡! <img width=30px height=30px src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif"/>
 
-Este é o meu projeto para o desafio técnico da Stone. Abaixo estão as instruções para executar o projeto localmente e uma breve explicação sobre a estrutura.
+Este Ã© o meu projeto para o desafio tÃ©cnico da Stone. Abaixo estÃ£o as instruÃ§Ãµes para executar o projeto localmente e uma breve explicaÃ§Ã£o sobre a estrutura.
 
-### Pré-requisitos
-Para executar este projeto, você precisará ter as seguintes ferramentas instaladas:
+### PrÃ©-requisitos
+Para executar este projeto, vocÃª precisarÃ¡ ter as seguintes ferramentas instaladas:
 - Entity Framework (instalado globalmente)
 - .NET Core 8.0
 
-### Instruções de Execução
+### InstruÃ§Ãµes de ExecuÃ§Ã£o
 Para executar este projeto localmente, siga os passos abaixo:
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
 ```shell
 git clone https://github.com/matheuswillock/Test.Stone.Willock.git
 ```
 
-2. Acesse o diretório do projeto:
+2. Acesse o diretÃ³rio do projeto:
 ```shell
 cd Test.Stone.Willock
 ```
@@ -26,7 +26,7 @@ cd Test.Stone.Willock
 docker-compose up -d
 ```
 
-4. Caso queira acessar o banco de dados com um Client de sua preferência segue a abaixo as infos:
+4. Caso queira acessar o banco de dados com um Client de sua preferÃªncia segue a abaixo as infos:
 ```shell
 Host: localhost
 Port: 5432
@@ -35,7 +35,7 @@ Username: my_user
 Password: my_pw
 ```
 
-5. Instale as dependências e xecute o build do projeto:
+5. Instale as dependÃªncias e xecute o build do projeto:
 ```shell
 dotnet build
 
@@ -54,10 +54,10 @@ dotnet ef database update
 dotnet run
 ```
 
-## Conclusão
+## ConclusÃ£o
 
-Este projeto foi desenvolvido como parte do desafio técnico da Stone. Ele demonstra o uso de várias tecnologias, incluindo C#, .NET, Entity Framework Core, FluentValidation, Docker Compose e Swagger, para criar uma aplicação robusta e bem estruturada.
+Este projeto foi desenvolvido como parte do desafio tÃ©cnico da Stone. Ele demonstra o uso de vÃ¡rias tecnologias, incluindo **C#, .NET, Entity Framework Core, FluentValidation, Docker Compose e Swagger**, para criar uma aplicaÃ§Ã£o robusta e bem estruturada.
 
-Espero que as informações fornecidas neste README sejam úteis para entender a estrutura e as tecnologias utilizadas no projeto. Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato comigo.
+Espero que as informaÃ§Ãµes fornecidas neste README sejam Ãºteis para entender a estrutura e as tecnologias utilizadas no projeto. Se vocÃª tiver alguma dÃºvida ou precisar de mais informaÃ§Ãµes, nÃ£o hesite em entrar em contato comigo.
 
 Obrigado por dedicar seu tempo para revisar este projeto!
